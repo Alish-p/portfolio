@@ -261,13 +261,6 @@ nav a:hover {
   bottom: 0%;
 }
 
-@media screen and (max-width: 780px) {
-  .skills-container .skill {
-    width: 100%;
-    margin: 0.8rem;
-  }
-}
-
 /* Project */
 
 .projects-container {
@@ -551,4 +544,22 @@ nav a:hover {
   top: 0;
   background: #fff;
   border: 2px solid var(--primary-color);
+}
+
+@media screen and (max-width: 780px) {
+  .skills-container .skill {
+    width: 100%;
+    margin: 0.8rem;
+  }
+  .wrapper {
+    padding: 10px;
+  }
+  .panel {
+    overflow-x: scroll;
+  }
+  .panel .details {
+    left: 0px;
+    bottom: 30px;
+    padding: 10px;
+  }
 }
